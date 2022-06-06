@@ -1,0 +1,15 @@
+Algoritmo Conjunto_número_entero
+ 
+Escribir "Por favor ingrese un número:"
+Leer x
+ 
+Para i<-1 Hasta x Hacer
+ 
+si x % i = 0 Entonces
+Escribir i
+FinSi
+FinPara
+ 
+FinAlgoritmo
+ 
+//El conjunto de los divisores de un número entero (x)
