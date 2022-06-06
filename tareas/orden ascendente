@@ -1,0 +1,20 @@
+Dimension lista[10]
+    //Ingresa 10 números aleatorios al array
+    Para contador = 1 hasta 10 con paso 1 hacer			
+        Escribir "Ingrese Número ", contador, " : "		
+        Leer lista[contador]				
+    FinPara
+    //Ordena Array de forma Ascendente
+    Para f <- 1 hasta 10 con paso 1 hacer			
+        Para fx <- f hasta 10 con paso 1 hacer			
+            Si lista[f] > lista[fx] Entonces
+                A <- lista[f];
+                lista[f] <- lista[fx];
+                lista[fx] <- A;					
+            FinSi
+        FinPara	
+    FinPara
+    //Muestra Array ordenado
+    Para contador = 10 hasta 1 con paso -1 hacer			
+        Escribir Sin Saltar lista[contador], " ";
+    FinPara
