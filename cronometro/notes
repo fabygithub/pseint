@@ -1,0 +1,17 @@
+https://www.youtube.com/watch?v=swjaEil-qgo&ab_channel=ALGORITMODETAREA
+
+Algoritmo detarea
+ Definir h,m,s Como Entero
+ Escribir "Ingresa las horas"
+ leer h
+ Escribir "Ingresa los minutos"
+ leer m
+ Escribir "Ingresa los segundos"
+ leer s
+ Mientras h>=0 Hacer
+    Mientras m >= 0 Hacer
+       m = m - 1
+    FinMientras
+    h = h - 1
+ finMientras 
+FinAlgoritmo
