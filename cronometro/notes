@@ -1,17 +1,46 @@
 https://www.youtube.com/watch?v=swjaEil-qgo&ab_channel=ALGORITMODETAREA
 
-Algoritmo detarea
- Definir h,m,s Como Entero
- Escribir "Ingresa las horas"
- leer h
- Escribir "Ingresa los minutos"
- leer m
- Escribir "Ingresa los segundos"
- leer s
- Mientras h>=0 Hacer
-    Mientras m >= 0 Hacer
-       m = m - 1
-    FinMientras
-    h = h - 1
- finMientras 
-FinAlgoritmo
+DEFINIR
+Mientras
+finmientras
+Limpiar Pantalla
+si
+no
+entonces
+escribir 
+leer
+sin saltar
+algoritmo
+finalgoritmo
+
+//ciclo infinito
+Mientras h>= 0 Hacer
+	FinMientras
+
+
+// termina en -1
+Mientras h>= 0 Hacer
+		h = h -1;
+	FinMientras
+
+//limpia la pantalla cuando es verdadero
+// cuando es falso -1 imprime un -1
+	Mientras s>= 0 Hacer
+	    Limpiar Pantalla;
+		s = s-1;
+		escribir s;
+	FinMientras
+	
+ 
+ //h = 9;
+ //escribe 09 sin saltar
+ // escribe 10 sin saltar espacio
+	si h>9 Entonces
+		Escribir h Sin Saltar;
+	SiNo
+		Escribir "0",h Sin Saltar;
+	FinSi
+ 
+ 
+ 
+ 
