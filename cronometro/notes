@@ -41,6 +41,20 @@ Mientras h>= 0 Hacer
 		Escribir "0",h Sin Saltar;
 	FinSi
  
+ //ejemplo segundos 5
+ //si s > 9 entonces
+ //escribir ":",s
+ 
+ //si s>= 0
+ //cuando s sea -1
+ //s = 59
+ //m = m - 1
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
